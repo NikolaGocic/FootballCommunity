@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "getTeam";
+}
+
+<h2>getTeam</h2>
+
+<div>
+    <label>
+        @ViewBag.Team.team_id
+    </label>
+    <label>
+        @ViewBag.Team.name
+    </label>
+    <img src="@Url.Content(ViewBag.Team.logo)" />
+</div>
+

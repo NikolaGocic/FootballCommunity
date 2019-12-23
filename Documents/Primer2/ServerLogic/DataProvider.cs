@@ -144,10 +144,25 @@ namespace ServerLogic
             dbCotext.SaveChanges();
         }
 
+        public bool ifExsist(Team team)
+        {
+            if(dbCotext.teams.Find(team.team_id)==null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         public void AddTeam(Team team)
         {
-            dbCotext.teams.Add(team);
-            dbCotext.SaveChanges();
+            if(!ifExsist(team))
+            {
+                Console.WriteLine(team.team_id);
+                dbCotext.teams.Add(team);
+                dbCotext.SaveChanges();
+            }
+        
         }
 
         public IEnumerable<LeagueView> GetLeagueViews()
@@ -186,6 +201,16 @@ namespace ServerLogic
         public void AddLeague(League league)
         {
             dbCotext.leagues.Add(league);
+            dbCotext.SaveChanges();
+        }
+
+        public void AddLeagues(IList<League> listLeagues)
+        {
+            foreach (League league in listLeagues)
+            {
+                dbCotext.leagues.Add(league);
+            }
+
             dbCotext.SaveChanges();
         }
 

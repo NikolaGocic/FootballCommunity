@@ -31,6 +31,7 @@ namespace ServerLogic
             JObject responseJObject = JObject.Parse(response.Content);
             JObject api = (JObject)responseJObject["api"];
             JArray fixtures = (JArray)api["fixtures"];
+            int i = 0;
             foreach(JObject json in fixtures)
             {
                 FixtureView fv = new FixtureView();
@@ -38,35 +39,70 @@ namespace ServerLogic
                 fv.event_date = json["event_date"].ToString();
                 fv.match_status = json["status"].ToString();
                 fv.elapsed =int.Parse( json["elapsed"].ToString());
-                if(json["goalsHomeTeam"]==null)
-                {
-                    fv.home_team_goal = 0;
-                }
-                else
-                {
-                    fv.home_team_goal = int.Parse(json["goalsHomeTeam"].ToString());
-                }
-
-                if (json["goalsAwayTeam"] == null)
-                {
-                    fv.away_team_goal = 0;
-                }
-                else
-                {
-                    fv.away_team_goal = int.Parse(json["goalsAwayTeam"].ToString());
-                }
+                fv.home_team_goal = 0;
+                fv.away_team_goal = 0;
                 JObject homeTeam = (JObject)json["homeTeam"];
                 JObject awayTeam = (JObject)json["awayTeam"];
                 fv.home_team_id = int.Parse(homeTeam["team_id"].ToString());
                 fv.away_team_id = int.Parse(awayTeam["team_id"].ToString());
+                fv.leagueId = int.Parse(json["league_id"].ToString());
 
                 lista.Add(fv);
+                i++;
+                if(i==2)
+                {
+                    fixtureViews = lista;
+                    return fixtureViews;
+                    
+                }
 
 
             }
 
             fixtureViews = lista;
             return fixtureViews;
+
+        }
+
+        public IEnumerable<LeagueView> GetLeaguesAvailable()
+        {
+            IEnumerable<LeagueView> leagueViews = Enumerable.Empty<LeagueView>();
+
+            var client = new RestClient("https://api-football-v1.p.rapidapi.com/v2/leagues");
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("x-rapidapi-host", rapidApiHost);
+            request.AddHeader("x-rapidapi-key", rapidApiKey);
+            IRestResponse response = client.Execute(request);
+
+            IList<LeagueView> lista = new List<LeagueView>();
+
+            JObject responseJObject = JObject.Parse(response.Content);
+            JObject api = (JObject)responseJObject["api"];
+            JArray leagues = (JArray)api["leagues"];
+            foreach (JObject json in leagues)
+            {
+                LeagueView lv = new LeagueView();
+                lv.league_id = int.Parse(json["league_id"].ToString());
+                lv.name = json["name"].ToString();
+                lv.country = json["country"].ToString();
+                lv.logo = json["logo"].ToString();
+                if(json["flag"]!=null)
+                {
+                    lv.flag = json["flag"].ToString();
+                }
+                else
+                {
+                    lv.flag = null;
+                }
+                
+
+                lista.Add(lv);
+
+
+            }
+
+            leagueViews = lista;
+            return leagueViews;
 
         }
 

@@ -15,6 +15,7 @@ namespace DataLayer.Entities
 
         }
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int prediction_id { get; set; }
         public int status { get; set; }
         public int chosen_option { get; set; }
@@ -24,13 +25,10 @@ namespace DataLayer.Entities
         public int fixtureId { get; set; }
       
         public int predictionTypeId { get; set; }
-
         [ForeignKey("fixtureId")]
         public virtual Fixture fixture { get; set; }
-
         [ForeignKey("predictionTypeId")]
         public virtual PredictionType predictionType { get; set; }
-
         [ForeignKey("userId")]
         public virtual User user { get; set; }
 

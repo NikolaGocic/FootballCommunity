@@ -15,6 +15,7 @@ namespace DataLayer.Entities
 
         }
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
         
         public int userId { get; set; }

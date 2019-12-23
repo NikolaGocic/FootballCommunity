@@ -164,6 +164,8 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\FixtureController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LeagueController.cs" />
+    <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -222,6 +224,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Fixture\getFixtures.cshtml" />
     <Content Include="Views\Fixture\addFixtures.cshtml" />
+    <Content Include="Views\Team\addTeam.cshtml" />
+    <Content Include="Views\Team\getTeam.cshtml" />
+    <Content Include="Views\Team\getTeams.cshtml" />
+    <Content Include="Views\League\getLeagues.cshtml" />
+    <Content Include="Views\League\addLeagues.cshtml" />
+    <Content Include="Views\Team\deleteTeam.cshtml" />
+    <Content Include="Views\Fixture\getFixture.cshtml" />
+    <Content Include="Views\League\getLeague.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

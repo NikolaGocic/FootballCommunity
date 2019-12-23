@@ -24,6 +24,13 @@ namespace WebApiFootbalCommunity.Controllers
             return View();
         }
 
+        public ActionResult getFixture(int id)
+        {
+            FixtureView fixtureView = dataProvider.GetFixture(id);
+            ViewBag.Fixture = fixtureView;
+            return View();
+        }
+
         public ActionResult addFixtures()
         {
             IEnumerable<FixtureView> fixtures = rapidApi.GetFixturesFromOneDate();
@@ -33,6 +40,7 @@ namespace WebApiFootbalCommunity.Controllers
             {
                 Fixture f = new Fixture();
                 f.fixture_id = fv.fixture_id;
+                f.leagueId = fv.leagueId;
                 f.event_date = fv.event_date;
                 f.elapsed = fv.elapsed;
                 f.match_status = fv.match_status;

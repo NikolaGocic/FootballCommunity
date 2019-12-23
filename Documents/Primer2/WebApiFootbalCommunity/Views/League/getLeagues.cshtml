@@ -1,0 +1,43 @@
+﻿@using DataLayer.DTO
+@{
+    ViewBag.Title = "getLeagues";
+}
+
+<h2>getLeagues</h2>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>LeagueID</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Logo</th>
+                <th>Flag</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(LeagueView lv in ViewBag.ListLeagues)
+            {
+                <tr>
+                    <td>@lv.league_id</td>
+                    <td>@lv.name</td>
+                    <td>@lv.country</td>
+                    <td>
+                        @if(lv.logo!="")
+                        {
+                            <img src="@Url.Content(lv.logo)" />
+                        }
+                    </td>
+                    <td>
+                        @if(lv.flag!="")
+                        {
+                            <img src="@Url.Content(lv.flag)" />
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

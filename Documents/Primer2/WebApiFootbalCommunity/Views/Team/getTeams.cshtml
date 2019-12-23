@@ -1,0 +1,32 @@
+﻿@using DataLayer.DTO
+@{
+    ViewBag.Title = "getTeams";
+}
+
+<h2>getTeams</h2>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>TeamId</th>
+                <th>Name</th>
+                <th>Logo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(TeamView team in ViewBag.listTeams)
+            {
+                <tr>
+                    <td>@team.team_id</td>
+                    <td>@team.name</td>
+                    <td>
+                    <img src="@Url.Content(team.logo)" />
+                    </td>
+                 </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+

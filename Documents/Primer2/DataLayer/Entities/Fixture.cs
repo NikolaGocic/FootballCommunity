@@ -17,6 +17,7 @@ namespace DataLayer.Entities
 
         }
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int fixture_id { get; set; }
         public string event_date { get; set; }
         public int elapsed { get; set; }

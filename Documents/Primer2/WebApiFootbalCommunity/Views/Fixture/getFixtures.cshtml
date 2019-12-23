@@ -1,0 +1,37 @@
+﻿@using DataLayer.DTO;
+@{
+    ViewBag.Title = "getFixtures";
+}
+
+<h2>Prikaz svih rezultata</h2>
+
+<div class="divGlavni">
+    <table class="fixtures">
+        <thead>
+            <tr>
+                <th>FixtureId</th>
+                <th>EventDate</th>
+                <th>Elapsed</th>
+                <th>MatchStatus</th>
+                <th>HomeTeamGoal</th>
+                <th>AwayTeamGoal</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(FixtureView fv in ViewBag.listFixtures)
+            {
+                <tr>
+                    <td>@fv.fixture_id</td>
+                    <td>@fv.event_date</td>
+                    <td>@fv.elapsed</td>
+                    <td>@fv.match_status</td>
+                    <td>@fv.home_team_goal</td>
+                    <td>@fv.away_team_goal</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+

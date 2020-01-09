@@ -16,7 +16,7 @@ namespace DataLayer
             CreateMap<Fixture, FixtureView>();
             CreateMap<League, LeagueView>();
             CreateMap<MyFixture, MyFixtureView>();
-            CreateMap<PredictionType, PredictionTypeView>();
+            CreateMap<PredictionType, PredictionType>();
             CreateMap<Prediction, PredictionView>();
             CreateMap<Team, TeamView>();
             CreateMap<User, UserView>();

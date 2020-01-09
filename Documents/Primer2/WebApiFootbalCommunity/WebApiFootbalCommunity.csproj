@@ -232,6 +232,7 @@
     <Content Include="Views\Team\deleteTeam.cshtml" />
     <Content Include="Views\Fixture\getFixture.cshtml" />
     <Content Include="Views\League\getLeague.cshtml" />
+    <Content Include="Views\League\addLeague.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

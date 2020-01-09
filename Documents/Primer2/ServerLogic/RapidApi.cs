@@ -64,6 +64,50 @@ namespace ServerLogic
 
         }
 
+        public LeagueView GetLeagueFromId(int id)
+        {
+            LeagueView leagueView = new LeagueView();
+
+            var client = new RestClient("https://api-football-v1.p.rapidapi.com/v2/leagues/league/"+id);
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("x-rapidapi-host", rapidApiHost);
+            request.AddHeader("x-rapidapi-key", rapidApiKey);
+            IRestResponse response = client.Execute(request);
+
+            JObject responseJObject = JObject.Parse(response.Content);
+            JObject api = (JObject)responseJObject["api"];
+            JArray leagues = (JArray)api["leagues"];
+
+            foreach (JObject json in leagues)
+            {
+                leagueView.league_id = int.Parse(json["league_id"].ToString());
+                leagueView.name = json["name"].ToString();
+                leagueView.country = json["country"].ToString();
+                if(json["flag"]!=null)
+                {
+                    leagueView.flag = json["flag"].ToString();
+                }
+                else
+                {
+                    leagueView.flag = "";
+                }
+                if(json["logo"]!=null)
+                {
+                    leagueView.logo = json["logo"].ToString();
+
+                }
+                else
+                {
+                    leagueView.logo = "";
+                }
+                
+            }
+
+            return leagueView;
+
+
+        }
+
         public IEnumerable<LeagueView> GetLeaguesAvailable()
         {
             IEnumerable<LeagueView> leagueViews = Enumerable.Empty<LeagueView>();
@@ -131,31 +175,6 @@ namespace ServerLogic
 
         }
 
-        public LeagueView GetLeagueFromId(int id)
-        {
-            LeagueView leagueView = new LeagueView();
 
-            var client = new RestClient("https://api-football-v1.p.rapidapi.com/v2/leagues/league/" + id);
-            var request = new RestRequest(Method.GET);
-            request.AddHeader("x-rapidapi-host", rapidApiHost);
-            request.AddHeader("x-rapidapi-key", rapidApiKey);
-            IRestResponse response = client.Execute(request);
-
-            JObject responseJObject = JObject.Parse(response.Content);
-            JObject api = (JObject)responseJObject["api"];
-            JArray teams = (JArray)api["teams"];
-
-            foreach (JObject json in teams)
-            {
-                leagueView.league_id = int.Parse(json["team_id"].ToString());
-                leagueView.name = json["name"].ToString();
-                leagueView.logo = json["logo"].ToString();
-                leagueView.flag = json["flag"].ToString();
-                leagueView.country = json["country"].ToString();
-
-            }
-
-            return leagueView;
-        }
     }
 }

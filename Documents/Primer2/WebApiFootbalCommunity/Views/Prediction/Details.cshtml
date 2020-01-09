@@ -1,0 +1,58 @@
+﻿@model DataLayer.Entities.Prediction
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Prediction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fixture.event_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fixture.event_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.predictionType.type_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.predictionType.type_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user.first_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user.first_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chosen_option)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chosen_option)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.prediction_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

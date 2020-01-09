@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DataLayer.DTO
 {
 
-    // ovo je za lazu
+    // ovo je za lazu 2
     class PredictionView
     {
     }

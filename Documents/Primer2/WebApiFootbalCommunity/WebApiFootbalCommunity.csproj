@@ -165,6 +165,7 @@
     <Compile Include="Controllers\FixtureController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LeagueController.cs" />
+    <Compile Include="Controllers\PredictionController.cs" />
     <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -232,7 +233,11 @@
     <Content Include="Views\Team\deleteTeam.cshtml" />
     <Content Include="Views\Fixture\getFixture.cshtml" />
     <Content Include="Views\League\getLeague.cshtml" />
-    <Content Include="Views\League\addLeague.cshtml" />
+    <Content Include="Views\Prediction\Create.cshtml" />
+    <Content Include="Views\Prediction\Delete.cshtml" />
+    <Content Include="Views\Prediction\Details.cshtml" />
+    <Content Include="Views\Prediction\Edit.cshtml" />
+    <Content Include="Views\Prediction\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

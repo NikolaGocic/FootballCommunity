@@ -95,100 +95,99 @@ D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\Primer2\WebApiFootbalCommunity\
 D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\Primer2\WebApiFootbalCommunity\bin\ServerLogic.pdb
 D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\Primer2\WebApiFootbalCommunity\bin\ServerLogic.dll.config
 D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\Primer2\WebApiFootbalCommunity\bin\RestSharp.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.dll.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.pdb
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.exe
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.exe.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.rsp
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.exe
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.exe.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.rsp
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.Managed.Core.targets
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.AppContext.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Collections.Immutable.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Console.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Compression.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.FileSystem.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Pipes.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Reflection.Metadata.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.AccessControl.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Claims.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Principal.Windows.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.ValueTuple.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XmlDocument.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XPath.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.exe
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.exe.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.rsp
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\VBCSCompiler.exe
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\VBCSCompiler.exe.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Antlr3.Runtime.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.SqlServer.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.Web.Infrastructure.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Newtonsoft.Json.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Net.Http.Formatting.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Helpers.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.WebHost.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Mvc.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Optimization.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Razor.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Deployment.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Razor.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebGrease.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\RestSharp.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.pdb
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.dll.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.pdb
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.dll.config
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.SqlServer.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Newtonsoft.Json.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Net.Http.Formatting.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Helpers.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.WebHost.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Mvc.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Optimization.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Razor.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Deployment.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Razor.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Antlr3.Runtime.pdb
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.pdb
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\RestSharp.xml
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.csprojAssemblyReference.cache
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.csproj.CoreCompileInputs.cache
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.csproj.CopyComplete
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.dll
-D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.dll.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebApiFootbalCommunity.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.exe
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.exe.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csc.rsp
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.exe
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.exe.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\csi.rsp
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.AppContext.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Console.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.exe
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.exe.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\vbc.rsp
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Antlr3.Runtime.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.SqlServer.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Newtonsoft.Json.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Net.Http.Formatting.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Helpers.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.WebHost.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Mvc.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Optimization.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Razor.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\WebGrease.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\RestSharp.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\DataLayer.dll.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\ServerLogic.dll.config
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\EntityFramework.SqlServer.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Newtonsoft.Json.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Net.Http.Formatting.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Helpers.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Http.WebHost.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Mvc.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Optimization.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.Razor.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Antlr3.Runtime.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.pdb
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\AutoMapper.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\bin\RestSharp.xml
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.csprojAssemblyReference.cache
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.csproj.CopyComplete
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.dll
+C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\WebApiFootbalCommunity\obj\Debug\WebApiFootbalCommunity.pdb

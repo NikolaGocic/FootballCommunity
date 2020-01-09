@@ -37,6 +37,9 @@ namespace ServerLogic
             return new FixtureView(f);
         }
 
+       
+        //Funcija koja dodaje fixture
+        
         public void AddFixtures(IList<Fixture> listFixtures)
         {
             foreach(Fixture fixture in listFixtures)
@@ -142,17 +145,7 @@ namespace ServerLogic
         {
             dbCotext.teams.Remove(dbCotext.teams.Find(id));
             dbCotext.SaveChanges();
-        }
-
-        public bool ifExsist(Team team)
-        {
-            if(dbCotext.teams.Find(team.team_id)==null)
-            {
-                return false;
-            }
-
-            return true;
-        }
+        }     
 
         public void AddTeam(Team team)
         {
@@ -163,6 +156,16 @@ namespace ServerLogic
                 dbCotext.SaveChanges();
             }
         
+        }
+
+        public bool ifExsist(Team team)
+        {
+            if (dbCotext.teams.Find(team.team_id) == null)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public IEnumerable<LeagueView> GetLeagueViews()
@@ -215,6 +218,21 @@ namespace ServerLogic
         }
 
 
+        public IEnumerable<PredictionView> GetPredictionViews()
+        {
+
+            IEnumerable<PredictionView> predictionViews = Enumerable.Empty<PredictionView>();
+            IEnumerable<Prediction> predictions = dbCotext.predictions;
+            IList<PredictionView> lista = new List<PredictionView>();
+
+            foreach (Prediction p in predictions)
+            {
+                lista.Add(new PredictionView(p));
+            }
+            predictionViews = lista;
+            return predictionViews;
+        }
+      
 
 
 

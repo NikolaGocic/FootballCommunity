@@ -53,5 +53,20 @@ namespace WebApiFootbalCommunity.Controllers
             dataProvider.AddLeagues(listLeagues);
             return View();
         }
+
+        public ActionResult addLeague(int id)
+        {
+            LeagueView lv = rapidApi.GetLeagueFromId(id);
+            League league = new League();
+            league.league_id = lv.league_id;
+            league.name = lv.name;
+            league.country = lv.country;
+            league.logo = lv.logo;
+            league.flag = lv.flag;
+
+            dataProvider.AddLeague(league);
+
+            return View();
+        }
     }
 }

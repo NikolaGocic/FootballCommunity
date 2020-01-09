@@ -5,3 +5,23 @@
 
 <h2>getLeague</h2>
 
+<div>
+    <label>
+        @ViewBag.League.league_id
+    </label>
+    <label>
+        @ViewBag.League.name
+    </label>
+    <label>
+        @ViewBag.League.country
+    </label>
+    @if (ViewBag.League.logo != "")
+    {
+        <img src="@Url.Content(ViewBag.League.logo)" />
+    }
+    @if (ViewBag.League.flag != "")
+    {
+        <img src="@Url.Content(ViewBag.League.flag)" />
+    }
+</div>
+

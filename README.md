@@ -1,1 +1,1 @@
-# FootballCommunity
+# FootballCommunityApplication for tracking live scores

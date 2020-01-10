@@ -41,3 +41,25 @@ C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\Serve
 C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.csproj.CopyComplete
 C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.dll
 C:\Users\Sasa\Source\Repos\NikolaGocic\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.pdb
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\ServerLogic.dll.config
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\ServerLogic.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\ServerLogic.pdb
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\DataLayer.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\EntityFramework.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\Newtonsoft.Json.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\RestSharp.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\AutoMapper.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\DataLayer.pdb
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\DataLayer.dll.config
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\EntityFramework.xml
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\Newtonsoft.Json.xml
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\RestSharp.xml
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\AutoMapper.pdb
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\bin\Debug\AutoMapper.xml
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.csprojAssemblyReference.cache
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.csproj.CoreCompileInputs.cache
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.csproj.CopyComplete
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.dll
+D:\DESKTOP\Cetvrta Godina\Projektovanje softvera\FootballCommunity\Documents\Primer2\ServerLogic\obj\Debug\ServerLogic.pdb

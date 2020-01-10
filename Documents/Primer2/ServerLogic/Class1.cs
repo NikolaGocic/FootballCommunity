@@ -8,5 +8,7 @@ namespace ServerLogic
 {
     public class Class1
     {
+
+        // ovu klasu trebamo da obrisemo
     }
 }

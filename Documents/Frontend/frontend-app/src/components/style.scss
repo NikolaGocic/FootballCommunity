@@ -1,0 +1,94 @@
+body{
+    background-color: lightskyblue;
+    .root-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        .box-controller {
+          font-size: 20px;
+          font-family: "Open Sans", sans-serif;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+    
+          .controller{
+              margin-right: 20px;
+          }
+        }
+      
+        #box-container {
+          display: flex;
+          flex-direction: column;
+    
+          .inner-container{
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              .box-header{
+                font-size: 24px;
+                font-family: "Times New Roman", sans-serif;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+    
+              }
+          }
+      
+          .image {
+            background-size: 20px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 25%;
+                height: 25%;
+            }
+          }
+      
+          .box {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      
+            .input-group {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              width: fit-content;
+              label {
+                font-size: 20px;
+              }
+              input {
+                margin-top: 3px;
+                min-width: 18em;
+                height: 30px;
+                padding: 0px 10px;
+                font-size: 16px;
+                font-family: "Open Sans", sans-serif;
+                background-color: #f3f3f3;
+                border: 0;
+                border-radius: 4px;
+                margin-bottom: 12px;
+                transition: all 250ms ease-in-out;
+                
+      
+                &:focus {
+                  outline: none;
+                  box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+                }
+              }
+            }
+          }
+        }
+      
+        .footer {
+          margin-top: 2em;
+        }
+      }
+
+}

@@ -37,6 +37,27 @@ namespace ServerLogic
             return new FixtureView(f);
         }
 
+        public bool checkIfExistsUser(string username)
+        {
+            User user = dbCotext.users.Where(u => u.username.Equals(username)).FirstOrDefault();
+            if (user == null)
+                return false;
+            else
+                return true;
+        }
+
+        public bool findUser(string username, string password)
+        {
+            User user = dbCotext.users.Where(u => u.username.Equals(username) && u.password.Equals(password)).FirstOrDefault();
+
+            if (user == null)
+            {
+                return false;
+            }
+            else
+                return true;
+        }
+
         public void AddFixtures(IList<Fixture> listFixtures)
         {
             foreach(Fixture fixture in listFixtures)
@@ -209,6 +230,16 @@ namespace ServerLogic
             foreach (League league in listLeagues)
             {
                 dbCotext.leagues.Add(league);
+            }
+
+            dbCotext.SaveChanges();
+        }
+
+        public void AddTeams(IList<Team> listTeams)
+        {
+            foreach(Team team in listTeams)
+            {
+                dbCotext.teams.Add(team);
             }
 
             dbCotext.SaveChanges();

@@ -23,6 +23,25 @@ namespace WebApiFootbalCommunity.Controllers
             return View();
         }
 
+        public ActionResult getTeamFromLeague(int id)
+        {
+            IEnumerable<TeamView> teams = rapidApi.GetTeamFromLeagueId(id);
+            IList<Team> listTeams = new List<Team>();
+
+            foreach(TeamView tv in teams)
+            {
+                Team team = new Team();
+                team.team_id = tv.team_id;
+                team.name = tv.name;
+                team.logo = tv.logo;
+
+                listTeams.Add(team);
+            }
+
+            dataProvider.AddTeams(listTeams);
+            return View();
+        }
+
         public ActionResult getTeams()
         {
             IEnumerable<TeamView> listTeams = new List<TeamView>();

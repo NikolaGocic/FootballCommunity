@@ -150,6 +150,38 @@ namespace ServerLogic
 
         }
 
+        public IEnumerable<TeamView> GetTeamFromLeagueId(int leagueId)
+        {
+            IEnumerable<TeamView> teamViews = Enumerable.Empty<TeamView>();
+
+            var client = new RestClient("https://api-football-v1.p.rapidapi.com/v2/teams/league/" + leagueId);
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("x-rapidapi-host", rapidApiHost);
+            request.AddHeader("x-rapidapi-key", rapidApiKey);
+            IRestResponse response = client.Execute(request);
+
+            JObject responseJObject = JObject.Parse(response.Content);
+            JObject api = (JObject)responseJObject["api"];
+            JArray teams = (JArray)api["teams"];
+
+            IList<TeamView> lista = new List<TeamView>();
+
+            foreach (JObject json in teams)
+            {
+                TeamView teamView = new TeamView();
+                teamView.team_id = int.Parse(json["team_id"].ToString());
+                teamView.name = json["name"].ToString();
+                teamView.logo = json["logo"].ToString();
+                lista.Add(teamView);
+            }
+
+            teamViews = lista;
+            return teamViews;
+
+
+
+        }
+
         public TeamView GetTeamFromId(int id)
         {
             TeamView teamView = new TeamView();

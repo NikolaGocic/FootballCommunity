@@ -196,6 +196,16 @@ namespace ServerLogic
             }
 
         }
+
+        public void AddTeams(IList<Team> listTeams)
+        {
+            foreach (Team team in listTeams)
+            {
+                dbCotext.teams.Add(team);
+            }
+
+            dbCotext.SaveChanges();
+        }
         #endregion
 
 

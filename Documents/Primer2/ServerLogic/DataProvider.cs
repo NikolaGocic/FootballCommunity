@@ -13,6 +13,7 @@ namespace ServerLogic
     {
         private FootballCommunityDbContext dbCotext = new FootballCommunityDbContext();
 
+        #region Fixtures
         //operacija read fixtures
         public IEnumerable<FixtureView> GetFixtures()
         {
@@ -20,7 +21,7 @@ namespace ServerLogic
             IEnumerable<Fixture> fixtures = dbCotext.fixtures;
             IList<FixtureView> lista = new List<FixtureView>();
 
-            foreach(Fixture f in fixtures)
+            foreach (Fixture f in fixtures)
             {
                 lista.Add(new FixtureView(f));
             }
@@ -39,7 +40,7 @@ namespace ServerLogic
 
         public void AddFixtures(IList<Fixture> listFixtures)
         {
-            foreach(Fixture fixture in listFixtures)
+            foreach (Fixture fixture in listFixtures)
             {
                 dbCotext.fixtures.Add(fixture);
             }
@@ -56,13 +57,16 @@ namespace ServerLogic
                 dbCotext.SaveChanges();
                 return 1;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 return -1;
             }
         }
+        #endregion
 
+
+        #region Users
         // Get users
         public IEnumerable<UserView> GetUsers()
         {
@@ -118,6 +122,13 @@ namespace ServerLogic
             dbCotext.SaveChanges();
         }
 
+
+
+        #endregion
+
+
+        #region Teams
+
         public IEnumerable<TeamView> GetTeamViews()
         {
             IEnumerable<TeamView> teamViews = Enumerable.Empty<TeamView>();
@@ -146,7 +157,7 @@ namespace ServerLogic
 
         public bool ifExsist(Team team)
         {
-            if(dbCotext.teams.Find(team.team_id)==null)
+            if (dbCotext.teams.Find(team.team_id) == null)
             {
                 return false;
             }
@@ -156,14 +167,18 @@ namespace ServerLogic
 
         public void AddTeam(Team team)
         {
-            if(!ifExsist(team))
+            if (!ifExsist(team))
             {
                 Console.WriteLine(team.team_id);
                 dbCotext.teams.Add(team);
                 dbCotext.SaveChanges();
             }
-        
+
         }
+        #endregion
+
+
+        #region Leagues
 
         public IEnumerable<LeagueView> GetLeagueViews()
         {
@@ -214,9 +229,144 @@ namespace ServerLogic
             dbCotext.SaveChanges();
         }
 
+        #endregion
 
 
+        #region Predictions
 
+        public IEnumerable<PredictionView> GetPredictions()
+        {
+            IEnumerable<PredictionView> predictionViews = Enumerable.Empty<PredictionView>();
+            IEnumerable<Prediction> prediction = dbCotext.predictions;
+            IList<PredictionView> lista = new List<PredictionView>();
+
+            foreach (Prediction f in prediction)
+            {
+                lista.Add(new PredictionView(f));
+            }
+            predictionViews = lista;
+            return predictionViews;
+        }
+
+        public IEnumerable<PredictionView> GetPredictionsForUserId(int id)
+        {
+            IEnumerable<PredictionView> p = Enumerable.Empty<PredictionView>();
+            IEnumerable<Prediction> pom = dbCotext.predictions;
+            IList<PredictionView> lista = new List<PredictionView>();
+
+            foreach (Prediction e in pom)
+            {
+                if (e.userId == id) lista.Add(new PredictionView(e));
+            }
+
+            p = lista;
+            return p;
+
+        }
+
+        public IEnumerable<PredictionView> GetPredictionsForFixtureId(int id)
+        {
+            IEnumerable<PredictionView> p = Enumerable.Empty<PredictionView>();
+            IEnumerable<Prediction> pom = dbCotext.predictions;
+            IList<PredictionView> lista = new List<PredictionView>();
+
+            foreach (Prediction e in pom)
+            {
+                if (e.fixtureId == id) lista.Add(new PredictionView(e));
+            }
+
+            p = lista;
+            return p;
+
+        }
+
+        public PredictionView GetPrediction(int id)
+        {
+            PredictionView p = new PredictionView(dbCotext.predictions.Find(id));
+            return p;
+        }
+
+
+        public void AddPrediction(Prediction p)
+        {
+            dbCotext.predictions.Add(p);
+            dbCotext.SaveChanges();
+        }
+
+        public void DeletePrediction(int id)
+        {
+            dbCotext.predictions.Remove(dbCotext.predictions.Find(id));
+            dbCotext.SaveChanges();
+        }
+
+
+        #endregion
+
+
+        #region PredictionType
+
+        public PredictionTypeView GetPredictionType(int id)
+        {
+            PredictionTypeView p = new PredictionTypeView(dbCotext.predictionTypes.Find(id));
+            return p;
+        }
+
+        public IEnumerable<PredictionTypeView> GetPredictionTypes()
+        {
+            IEnumerable<PredictionTypeView> predictionTypes = Enumerable.Empty<PredictionTypeView>();
+            IEnumerable<PredictionType> predictions = dbCotext.predictionTypes;
+            IList<PredictionTypeView> lista = new List<PredictionTypeView>();
+
+            foreach (PredictionType p in predictions)
+            {
+                lista.Add(new PredictionTypeView(p));
+            }
+
+            predictionTypes = lista;
+            return predictionTypes;
+        }
+
+        public void AddPredictionType(PredictionType p)
+        {
+            dbCotext.predictionTypes.Add(p);
+            dbCotext.SaveChanges();
+        }
+
+        public void DeletePredictionType(int id)
+        {
+            dbCotext.predictionTypes.Remove(dbCotext.predictionTypes.Find(id));
+        }
+        #endregion
+
+
+        #region MyFixtures
+
+        public MyFixtureView GetMyFixture(int id)
+        {
+            return new MyFixtureView(dbCotext.myFixtures.Find(id));
+        }
+
+        public IEnumerable<MyFixtureView> GetMyFixturesForUserId(int id)
+        {
+            IEnumerable<MyFixtureView> a = Enumerable.Empty<MyFixtureView>();
+            IEnumerable<MyFixture> myFixtures = dbCotext.myFixtures;
+            IList<MyFixtureView> lista = new List<MyFixtureView>();
+
+            foreach (MyFixture m in myFixtures)
+            {
+                if (m.userId == id) lista.Add(new MyFixtureView(m));
+            }
+
+
+            a = lista;
+            return a;
+        }
+
+        public void DeleteMyFixture(int id)
+        {
+            dbCotext.myFixtures.Remove(dbCotext.myFixtures.Find(id));
+        }
+        #endregion
 
     }
 }

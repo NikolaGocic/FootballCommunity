@@ -1,18 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using ServerLogic;
+using DataLayer.Entities;
 
 namespace WebApiFootbalCommunity.Controllers
 {
     public class ValuesController : ApiController
     {
+
+        private DataProvider dataProvider = new DataProvider();
+        private RapidApi rapidApi = new RapidApi();
+
         // GET api/values
-        public IEnumerable<string> Get()
+        public void Get()
         {
-            return new string[] { "value1", "value2" };
+            
         }
 
         // GET api/values/5
@@ -32,8 +39,10 @@ namespace WebApiFootbalCommunity.Controllers
         }
 
         // DELETE api/values/5
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
+
+            return Request.CreateResponse(HttpStatusCode.OK,id);
         }
     }
 }

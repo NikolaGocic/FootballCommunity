@@ -1,6 +1,13 @@
 Documents/Primer2/WebApiFootbalCommunity/Web.config
 Documents/Primer2/DataLayer/App.config
-
-
-
+Documents/Primer2/.vs/Primer2/config/applicationhost.config
+Documents/Primer2/.vs/Primer2/v16/.suo
+Documents/Primer2/.vs/Primer2/v16/Server/sqlite3/storage.ide
+Documents/Primer2/.vs/Primer2/v16/Server/sqlite3/storage.ide-shm
+Documents/Primer2/.vs/Primer2/v16/Server/sqlite3/storage.ide-wal
+Documents/Primer2/DataLayer/obj/Debug/DataLayer.csproj.FileListAbsolute.txt
+Documents/Primer2/DataLayer/obj/Debug/DataLayer.csprojAssemblyReference.cache
+Documents/Primer2/ServerLogic/obj/Debug/ServerLogic.csproj.FileListAbsolute.txt
+Documents/Primer2/ServerLogic/obj/Debug/ServerLogic.csprojAssemblyReference.cache
+Documents/Primer2/WebApiFootbalCommunity/obj/Debug/WebApiFootbalCommunity.csprojAssemblyReference.cache
 
